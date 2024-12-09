@@ -2,8 +2,8 @@ from openai import OpenAI
 from tqdm import tqdm
 import os
 client = OpenAI(
-  api_key='sk-5iaHigKdjpoE0iWP3002512eEeAa45DdB730B6004b5fAd99',
-  base_url='https://pro.xiaoai.plus/v1'
+  api_key='',
+  base_url=''
 )
 def get_chat_completion_4o(messages):
     response = client.chat.completions.create(

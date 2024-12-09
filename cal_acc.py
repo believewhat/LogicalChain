@@ -39,10 +39,10 @@ from colbert import Searcher
 import torch
 import concurrent.futures
 """
-openai.api_key = "sk-GtGtq9SRSDRcj1yXEf57F6B02c85413381D33cCf69DaEeB1"
-openai.api_base = "https://api.xiaoai.plus/v1"
+openai.api_key = ""
+openai.api_base = ""
 """
-openai.api_key = "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"
+openai.api_key = ""
 def apply_chatgpt(messages, temperature=0.1, max_tokens=10, presence_penalty=0, frequency_penalty=0, method="gpt-3.5-turbo"):
   cnt = 0
   while cnt < 4:

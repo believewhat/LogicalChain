@@ -4,8 +4,8 @@ from openai import OpenAI
 import json
 
 client = OpenAI(
-  api_key='sk-5iaHigKdjpoE0iWP3002512eEeAa45DdB730B6004b5fAd99',
-  base_url='http://149.88.91.225:3000/v1',
+  api_key='',
+  base_url='',
 )
 
 prompt = '''

@@ -2,11 +2,11 @@ import json
 import random
 from openai import OpenAI
 import os
-os.environ["OPENAI_API_KEY"] = 'sk-5iaHigKdjpoE0iWP3002512eEeAa45DdB730B6004b5fAd99'
+os.environ["OPENAI_API_KEY"] = ''
 
 client = OpenAI(
-    api_key='sk-5iaHigKdjpoE0iWP3002512eEeAa45DdB730B6004b5fAd99',
-    base_url='https://pro.xiaoai.plus/v1',
+    api_key='',
+    base_url='',
     timeout=40
 )
 # 加载 usmle_train_doc.json 数据

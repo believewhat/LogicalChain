@@ -10,11 +10,11 @@ import json
 import csv
 import pandas as pd
 import argparse
-os.environ["OPENAI_API_KEY"]='sk-Lm8CRExiZookv6eK0e998c6c6b4346F2B7D6149fCfF4E72c'
+os.environ["OPENAI_API_KEY"]=''
 
 client = OpenAI(
-  api_key='sk-Lm8CRExiZookv6eK0e998c6c6b4346F2B7D6149fCfF4E72c',
-  base_url='https://api.xiaoai.plus/v1'
+  api_key='',
+  base_url=''
 )
 with open("amboss_doc_open_test.json", 'r', encoding='utf-8') as file:
     data = json.load(file)
