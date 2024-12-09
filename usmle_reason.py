@@ -13,11 +13,6 @@ import pandas as pd
 import argparse
 import base64
 from openai import OpenAI
-os.environ["OPENAI_API_KEY"]=''
-
-client = OpenAI(
-  api_key=''
-)
 
 Prompt = """
 Question:
